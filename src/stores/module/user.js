@@ -4,7 +4,7 @@ import { defineStore } from "pinia"
 import { login } from '../../api/login'
 
 export const useUserStore = defineStore("user", () => {
-  const user = ref(null);
+  const user = ref(null)
 
   function setUser(data) {
     user.value = data
