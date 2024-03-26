@@ -21,6 +21,7 @@ const breadNavList = ref([])
 
 // 获取面包屑导航的路由数据
 function getBreadNavList() {
+  debugger
   // 获取匹配到的路由
   let matched = route.matched.filter(item => item.meta && item.meta.title)
   breadNavList.value = matched

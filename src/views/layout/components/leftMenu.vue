@@ -26,6 +26,13 @@ const currentRouter = router.currentRoute.value.path || route.path
           <span>wyt</span>
         </el-menu-item>
 
+        <el-menu-item index="/system">
+          <el-icon>
+            <Briefcase />
+          </el-icon>
+          <span>system</span>
+        </el-menu-item>
+
         <!-- 子菜单 -->
         <el-sub-menu index="/system">
           <template #title>
